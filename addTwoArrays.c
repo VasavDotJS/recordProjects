@@ -17,10 +17,12 @@ int main()
         scanf("%d",&array2[i]);
     }
     printf("The Sum of both Arrays are \n");
+    printf("[");
     for(i=0;i<limit;i++)
     {
         sumArray[i]=array1[i]+array2[i];
         printf("\t%d,",sumArray[i]);
     }
+    printf("]");
     return 0;
 }
