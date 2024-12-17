@@ -29,7 +29,7 @@ int main()
         emp1.esa=emp1.basic*0.02;
         emp1.pf=emp1.basic*0.12;
         emp1.tax=emp1.basic*0.01;
-        emp1.gross=(emp1.basic+emp1.da+emp1.hra+emp1.esa+emp1.tax)-emp1.pf;
+        emp1.gross=(emp1.basic+emp1.da+emp1.hra+emp1.esa)-(emp1.pf+emp1.tax);
     }
     printf("\t\t\t\t SALARY SLIP\n");
     printf("\t\t\t\t-------------\n\n");
