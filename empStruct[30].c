@@ -20,6 +20,7 @@ int main()
         emp1.da=emp1.basic*0.40;
         emp1.pf=emp1.basic*0.12;
         emp1.esa=emp1.basic*0.02;
+        emp1.tax=0;
         emp1.gross=(emp1.basic+emp1.hra+emp1.da+emp1.esa)-emp1.pf;
     } 
     else
