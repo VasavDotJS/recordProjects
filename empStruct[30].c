@@ -45,6 +45,7 @@ int main()
     printf("\t House Rent Allownance       : %d\n",emp1.hra);
     printf("\t Provident Fund              : %d\n",emp1.pf);
     printf("\t Employment Support Allowance: %d\n",emp1.esa);
+    printf("\t Income Tax                  : %d\n",emp1.tax);
     printf(" --------------------------------------------------------------------------------\n");
     printf("\t Gross Pay                   :%d",emp1.gross);
     return 0;
